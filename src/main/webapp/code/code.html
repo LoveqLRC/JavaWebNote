@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img src="/code" alt="验证码" onclick="changeImg(this)">
+
+</body>
+<script type="text/javascript">
+    function changeImg(obj) {
+        obj.src = "/code?time=" + Math.random()
+    }
+</script>
+</html>
