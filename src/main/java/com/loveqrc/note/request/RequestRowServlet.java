@@ -11,9 +11,9 @@ import java.io.IOException;
  * 请求常有方法演示
  */
 @WebServlet(
-        urlPatterns = "/requestmethod"
+        urlPatterns = "/requestrow"
 )
-public class RequestMethodServlet extends HttpServlet {
+public class RequestRowServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
 
