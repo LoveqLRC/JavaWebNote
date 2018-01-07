@@ -16,6 +16,9 @@ import java.io.InputStream;
         name = "download",
         urlPatterns = "/download"
 )
+/**
+ * 下载
+ */
 public class DownLoadServlet extends HttpServlet {
 
     @Override

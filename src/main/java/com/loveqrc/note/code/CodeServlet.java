@@ -14,6 +14,9 @@ import java.util.Random;
 @WebServlet(
         urlPatterns = "/code"
 )
+/**
+ * 验证码
+ */
 public class CodeServlet extends HttpServlet {
 
     @Override
