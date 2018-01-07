@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * 请求常有方法演示
+ * 请求行
  */
 @WebServlet(
         urlPatterns = "/requestrow"
